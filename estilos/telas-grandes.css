@@ -8,6 +8,8 @@
     /*TABLETS*/
     body{
         background: var(--cor1) linear-gradient(var(--cor1), var(--cor2), white);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
 
@@ -38,6 +40,8 @@
     /*MONITORES E TVS*/
     body{
         background: var(--cor1) linear-gradient(var(--cor1), var(--cor2), white);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     section#login{
