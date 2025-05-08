@@ -5,6 +5,7 @@
     --cor2: #037F8C;
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
+    /*TABLETS*/
     body{
         background: var(--cor1) linear-gradient(var(--cor1), var(--cor2), white);
     }
@@ -12,6 +13,7 @@
 
     section#login{
         width: 80vw;
+        font-size: 1.2em;
     }
 
     section#login > div#imagem{
@@ -22,19 +24,24 @@
 
     section#login > div#formulario{
         float: right;
-        padding: 14% 0px;
+        padding: 14% 7px;
         width: 70%;
         height: 100%;
+    }
+
+    div#campo > input{
+        width: calc(100% - 46px);
     }
 }
 
 @media screen and (min-width: 992px){
+    /*MONITORES E TVS*/
     body{
         background: var(--cor1) linear-gradient(var(--cor1), var(--cor2), white);
     }
 
     section#login{
-        width: 940px;
+        width: 955px;
     }
 
     section#login > div#imagem{
@@ -45,7 +52,7 @@
 
     section#login > div#formulario{
         float: left;
-        padding: 10% 5px;
+        padding: 10% 10px;
         width: 50%;
         height: 100%;
     }
