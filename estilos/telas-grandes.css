@@ -15,7 +15,6 @@
         top: 50%;
         left: 50%;
         width: 80vw;
-        height: 80vh;
     }
 
     section#login > div#imagem{
@@ -50,5 +49,14 @@
         float: left;
         width: 50%;
         height: 100%;
+    }
+
+    div#formulario > h1{
+        font-size: 1.6em;
+    }
+
+    div#formulario > p{ 
+        padding-top: 5px;
+        font-size: 1.1em;
     }
 }

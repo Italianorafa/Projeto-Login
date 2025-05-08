@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/default.css">
     <link rel="stylesheet" href="estilos/telas-grandes.css">
 </head>
@@ -17,12 +18,17 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente, faça login para a acessar sua conta</p>
                 <form action="login.php" method="post">
-                    <label for="iuser">Nome de usuário: </label>
-                    <input type="text" name="username" id="iuser" placeholder="username" size="10" maxlength="15"> <br>
-                    <label for="ipass">Senha: </label>
-                    <input type="password" name="pass" id="ipass" > <br>
-
-                    <input type="submit" value="Login">
+                    <i class="material-symbols-outlined">person</i>
+                    <input type="email" name="username" id="iuser" placeholder="seu e-mail" maxlength="30" required> 
+                    <br>
+                    <i class="material-symbols-outlined">vpn_key</i>
+                    <input type="password" name="pass" id="ipass" placeholder="sua senha" minlength="8" maxlength="15" required> <br>
+                    
+                    <input type="submit" value="Entrar" id="login"> <br>
+                    <a href="esqueci.html">
+                        Esqueci a senha
+                        <i class="material-symbols-outlined">mail</i>
+                    </a>
                 </form>
             </div>
         </section>

@@ -54,9 +54,10 @@ section#login > div#formulario{
     background-color: var(--cor2);
 }
 
-section#login > div#formulario  > form{
-    position: relative;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -90%);
+div#formulario > h1{
+    text-align: center;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
 }
